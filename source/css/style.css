@@ -13,6 +13,13 @@
     position: relative;
 }
 
+.container
+{
+    max-width: 1190px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .theme-button a
 {
     text-decoration: none;
@@ -27,6 +34,7 @@
    
 }
 
+                                                /* Navigation */
 
 header.main-header
 {
@@ -37,6 +45,13 @@ header.main-header
     padding: 20px 120px;
     width: 100%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+header.main-header .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header.main-header .main-header-right
@@ -98,7 +113,7 @@ header.main-header .main-header-right nav ul li a
 
 
 
-/* Hero */
+                                                /* Hero */
 
 header.main-header
 {
@@ -148,9 +163,8 @@ section.hero figure img
 }
 
 section.hero .hero-text
-{   
+{       
     
-    margin-left: 120px;
     max-width: 592px;
     z-index:  2;
 }
@@ -177,4 +191,92 @@ section.hero .hero-p
 header.main-header .logo a:hover
 {
     opacity: 70%;
+}
+
+                                          /* Second Block */
+
+section.second-block
+{
+    margin-top: 166px;    
+    
+}
+
+section.second-block .container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Second Block Text sec */
+
+section.second-block-text
+{
+    width: 486px;
+    min-height: 385px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+section.second-block-text .second-block-p-blue
+{
+    color: #2094E6;
+    font-family: var(--playfair);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+section.second-block-text .second-block-h2
+{
+    font-weight: 500;
+    line-height: 60px;
+    font-family: var(--playfair);
+    font-size: 45px ;
+}
+
+section.second-block-text .second-block-p
+{
+    font-family: var(--sans);
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/* Second Block photos sec */
+
+section.second-block .container section.waterfall-landscape figure
+{
+    
+    width: 667px ;
+    height: 546px ;
+    margin-right: 44px;
+ 
+}
+
+
+
+/* section.second-block .container section.waterfall-landscape figure .waterfall-border
+{
+    border: 1px solid red;
+} */
+
+
+section.second-block .container section.waterfall-landscape figure .waterfall
+{
+  
+    width: 577px;
+    height: 405px;
+}
+
+section.waterfall-landscape figure .landscape
+{
+    height:263px ;
+    width:386px ;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
 }
