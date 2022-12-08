@@ -263,20 +263,26 @@ section.second-block .container section.waterfall-landscape figure
     border: 1px solid red;
 } */
 
+section.second-block .container .waterfall-landscape figure .waterfall-border
+{
+    border: 2px solid #E3DEC1;
+    width: 577px;
+    height: 425px;
+    padding: 10px 8px;
+}
 
 section.second-block .container section.waterfall-landscape figure .waterfall
 {
   
-    width: 577px;
-    height: 405px;
+    width: 557px;
+    height: 405px;    
 }
 
-section.waterfall-landscape figure .landscape
+section.waterfall-landscape figure .landscape 
 {
     height:263px ;
     width:386px ;
     position: absolute;
     bottom: 0;
-    right: 0;
-    
+    right: 0;    
 }
