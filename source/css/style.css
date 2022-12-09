@@ -221,13 +221,14 @@ section.second-block-text
     gap: 20px;
 }
 
-section.second-block-text .second-block-p-blue
+section.second-block-text .second-block-a-blue
 {
     color: #2094E6;
     font-family: var(--playfair);
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
+    text-decoration: none;
 }
 
 section.second-block-text .second-block-h2
@@ -256,12 +257,6 @@ section.second-block .container section.waterfall-landscape figure
  
 }
 
-
-
-/* section.second-block .container section.waterfall-landscape figure .waterfall-border
-{
-    border: 1px solid red;
-} */
 
 section.second-block .container .waterfall-landscape figure .waterfall-border
 {
