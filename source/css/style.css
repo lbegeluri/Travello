@@ -424,7 +424,14 @@ section.cards div.container
     flex-direction: column;
     gap: 15px;
     padding: 44px 28px  30px 27px;
+    
         
+}
+
+.cards .container a
+{
+    text-decoration: none;
+    
 }
 
 .card h2
@@ -433,6 +440,7 @@ section.cards div.container
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
+    color: #121212;
 
 }
 
@@ -441,6 +449,7 @@ section.cards div.container
     font-family: var(--sans);
     font-size: 16px;
     line-height: 24px;
+    color: #333333;
 }
 
 section.cards .container .full-guide:hover
