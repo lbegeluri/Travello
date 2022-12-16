@@ -16,11 +16,23 @@
 
 body figure.santa img{
     position: absolute;
-    top: 0;
+    top: 10px;
     left: 10px;
     width: 100px;
     height: auto;
     z-index: 3;
+    animation-name: santa;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    
+}
+
+
+@keyframes santa
+{
+    0% {transform: translate(0);}
+    100% {transform: translate(1700px);}
+   
 }
 
 .container
@@ -381,6 +393,15 @@ section.cards .container .camp-fire:hover
 
 @media (max-width:1024px)
 {
+
+body figure.santa img
+{
+    position: absolute;
+    top: 75px;
+}
+
+
+
 
 section.hero figure img
 {
