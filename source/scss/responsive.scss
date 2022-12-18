@@ -1,0 +1,161 @@
+@media (max-width:1024px)
+{
+
+section.hero figure img
+{
+    object-fit: cover;
+    
+}
+header.main-header div.main-header-right nav
+{
+    display: none;
+}
+  
+
+
+header.main-header div.container
+{
+  flex-direction: column;
+  gap: 30px;
+
+}
+
+section.hero div.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
+
+section.hero div.container div.hero-text
+{
+   
+    text-align: center;
+}
+
+section.hero div.container div.hero-text .hero-h1
+{
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+section.hero div.container div.hero-text .hero-p
+{
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+/* About us block */
+
+
+section.about-us .container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+section.about-us
+{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;  
+    
+}
+
+
+
+section.about-us .container section.about-us-text
+{
+    
+    width: 100%;
+    min-height: 300px;
+    text-align: center;
+}
+
+section.about-us .container section.waterfall-landscape
+{
+    width: 100%;
+    
+}
+
+section.about-us .container section.waterfall-landscape figure
+{
+    width: 100%;
+}
+section.about-us .container section.waterfall-landscape figure .waterfall
+{
+    height: 50%;
+    width: auto;
+    max-width: 600px;
+}
+section.about-us .container section.waterfall-landscape figure .waterfall img
+{
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+section.about-us .container section.waterfall-landscape figure .landscape
+{
+    height: 50%;
+    width: auto;
+    
+}
+
+section.about-us .container section.waterfall-landscape figure .landscape img
+{
+    width: 100%;
+    height: auto;
+}
+
+section.about-us .container .about-us-text .about-us-h2
+{
+    font-size: 25px;
+    line-height: 25px;
+}
+
+section.about-us .container .about-us-text .about-us-p
+{
+    font-size: 15px;
+    line-height: 15px;
+}
+
+/* third block */
+
+section.benefits 
+{
+    margin-top: 50px;
+}
+
+                            
+section.benefits div.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;   
+    margin-top:0; 
+    
+}
+
+section.benefits .container .card
+{
+    width: 80%;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+
+}

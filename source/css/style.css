@@ -14,26 +14,6 @@
 }
 
 
-body figure.santa img{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 100px;
-    height: auto;
-    z-index: 3;
-    animation-name: santa;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    
-}
-
-
-@keyframes santa
-{
-    0% {transform: translate(0);}
-    100% {transform: translate(1700px);}
-   
-}
 
 .container
 {
@@ -58,7 +38,7 @@ body figure.santa img{
                                
 
                                         
-                                     /* Navigation */
+/* Navigation */
 
 header.main-header
 {
@@ -139,7 +119,7 @@ header.main-header .main-header-right nav ul li a
 
 
 
-                                                /* Hero */
+/* Hero */
 
 header.main-header
 {
@@ -220,16 +200,16 @@ header.main-header .logo a:hover
     opacity: 70%;
 }
 
-                                          /* Second Block */
+/* Second Block */
 
-section.second-block
+section.about-us
 {
     margin-top: 60px;   
     margin-bottom: 100px; 
     
 }
 
-section.second-block .container
+section.about-us .container
 {
     display: flex;
     justify-content: space-between;
@@ -239,7 +219,7 @@ section.second-block .container
 
 /* Second Block Text sec */
 
-section.second-block-text
+section.about-us-text
 {
     width: 486px;
     min-height: 385px;
@@ -249,7 +229,7 @@ section.second-block-text
     gap: 20px;
 }
 
-section.second-block-text .second-block-a-blue
+section.about-us-text .about-us-a-blue
 {
     color: #2094E6;
     font-family: var(--playfair);
@@ -259,7 +239,7 @@ section.second-block-text .second-block-a-blue
     text-decoration: none;
 }
 
-section.second-block-text .second-block-h2
+section.about-us-text .about-us-h2
 {
     font-weight: 500;
     line-height: 60px;
@@ -267,7 +247,7 @@ section.second-block-text .second-block-h2
     font-size: 45px ;
 }
 
-section.second-block-text .second-block-p
+section.about-us-text .about-us-p
 {
     font-family: var(--sans);
     font-size: 18px;
@@ -276,7 +256,7 @@ section.second-block-text .second-block-p
 
 /* Second Block photos sec */
 
-section.second-block .container section.waterfall-landscape figure
+section.about-us .container section.waterfall-landscape figure
 {
     
     width: 667px ;
@@ -287,7 +267,7 @@ section.second-block .container section.waterfall-landscape figure
 
 
 
-section.second-block .container section.waterfall-landscape figure .waterfall
+section.about-us .container section.waterfall-landscape figure .waterfall
 {
   
     width: 557px;
@@ -305,20 +285,11 @@ section.waterfall-landscape figure .landscape
 
 
 
-section.hero figure .santa
-{
-    width: 6%;
-    height: auto;
-    position: absolute;
-    top: 0;
-    z-index: 3;
-    margin-left: 20px;
-}
 
 
-                                    /* Third block (cards) */
+/* Third block (benefits) */
 
-section.cards div.container
+section.benefits div.container
 {
   
     margin-bottom: 128px;
@@ -340,7 +311,7 @@ section.cards div.container
         
 }
 
-.cards .container a
+.benefits .container a
 {
     text-decoration: none;
     
@@ -364,44 +335,36 @@ section.cards div.container
     color: #333333;
 }
 
-section.cards .container .full-guide:hover
+section.benefits .container .full-guide:hover
 {
     transform:  scale(1.1);
     transition: 1s;
 
 }
-section.cards .container .transport:hover
+section.benefits .container .transport:hover
 {
     transform:  scale(1.1);
     transition: 1s;
 
 }
-section.cards .container .easy-book:hover
+section.benefits .container .easy-book:hover
 {
     transform:  scale(1.1);
     transition: 1s;
 
 }
-section.cards .container .camp-fire:hover
+section.benefits .container .camp-fire:hover
 {
     transform:  scale(1.1);
     transition: 1s;
 
 }
 
-                                    /* responsive Settings */
+
+/* responsive Settings */
 
 @media (max-width:1024px)
 {
-
-body figure.santa img
-{
-    position: absolute;
-    top: 75px;
-}
-
-
-
 
 section.hero figure img
 {
@@ -414,10 +377,6 @@ header.main-header div.main-header-right nav
 }
   
 
-section.hero figure .santa
-{
-    display: none;
-}
 
 header.main-header div.container
 {
@@ -426,15 +385,24 @@ header.main-header div.container
 
 }
 
+section.hero div.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
+
 section.hero div.container div.hero-text
 {
-    margin: 20%;
+   
     text-align: center;
 }
 
 section.hero div.container div.hero-text .hero-h1
 {
-    font-size: 30px;
+    font-size: 20px;
     line-height: 40px;
     margin-bottom: 10px;
 }
@@ -445,10 +413,10 @@ section.hero div.container div.hero-text .hero-p
     margin-bottom: 15px;
 }
 
-                    /* second block */
+/* second block */
 
 
-section.second-block .container
+section.about-us .container
 {
     display: flex;
     flex-direction: column;
@@ -456,7 +424,7 @@ section.second-block .container
     align-items: center;    
 }
 
-section.second-block
+section.about-us
 {
     margin-top: 50px;
     width: 100%;
@@ -469,7 +437,7 @@ section.second-block
 
 
 
-section.second-block .container section.second-block-text
+section.about-us .container section.about-us-text
 {
     
     width: 100%;
@@ -477,23 +445,23 @@ section.second-block .container section.second-block-text
     text-align: center;
 }
 
-section.second-block .container section.waterfall-landscape
+section.about-us .container section.waterfall-landscape
 {
     width: 100%;
     
 }
 
-section.second-block .container section.waterfall-landscape figure
+section.about-us .container section.waterfall-landscape figure
 {
     width: 100%;
 }
-section.second-block .container section.waterfall-landscape figure .waterfall
+section.about-us .container section.waterfall-landscape figure .waterfall
 {
     height: 50%;
     width: auto;
     max-width: 600px;
 }
-section.second-block .container section.waterfall-landscape figure .waterfall img
+section.about-us .container section.waterfall-landscape figure .waterfall img
 {
     width: 100%;
     height: auto;
@@ -501,40 +469,40 @@ section.second-block .container section.waterfall-landscape figure .waterfall im
     
 }
 
-section.second-block .container section.waterfall-landscape figure .landscape
+section.about-us .container section.waterfall-landscape figure .landscape
 {
     height: 50%;
     width: auto;
     
 }
 
-section.second-block .container section.waterfall-landscape figure .landscape img
+section.about-us .container section.waterfall-landscape figure .landscape img
 {
     width: 100%;
     height: auto;
 }
 
-section.second-block .container .second-block-text .second-block-h2
+section.about-us .container .about-us-text .about-us-h2
 {
     font-size: 25px;
     line-height: 25px;
 }
 
-section.second-block .container .second-block-text .second-block-p
+section.about-us .container .about-us-text .about-us-p
 {
     font-size: 15px;
     line-height: 15px;
 }
 
-                            /* third block */
+/* third block */
 
-section.cards 
+section.benefits 
 {
     margin-top: 50px;
 }
 
                             
-section.cards div.container
+section.benefits div.container
 {
     display: flex;
     flex-direction: column;
@@ -545,7 +513,7 @@ section.cards div.container
     
 }
 
-section.cards .container .card
+section.benefits .container .card
 {
     width: 80%;
     margin: 10px;

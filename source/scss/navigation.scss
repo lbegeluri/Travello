@@ -1,0 +1,76 @@
+header.main-header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:  2;
+    padding: 20px 120px;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+
+header.main-header .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header.main-header .main-header-right
+{
+    display: flex;
+    align-items: center;
+}
+
+header.main-header .main-header-right nav
+{
+    margin-right: 82px;
+    
+}
+
+header.main-header .main-header-right nav ul
+{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+} 
+
+header.main-header .main-header-right nav ul li a:hover
+{
+    color: var(--white);
+    transition: 0.5s;
+    font-size: 200%;
+   
+    
+}
+
+.theme-button a:hover
+{
+    text-decoration: none;
+    background-color: black;
+    padding: 8px 24px;
+    color: var(--white);
+    font-size: 16px;
+    font-family: var(--sans);
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    color: white;
+    transition: 1s;    
+   
+}
+
+
+
+header.main-header .main-header-right nav ul li a
+{
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 500px;
+    font-size: 24px;
+    font-family: "Work Sans", sans-serif;
+
+}

@@ -1,0 +1,80 @@
+section.about-us
+{
+    margin-top: 60px;   
+    margin-bottom: 100px; 
+    
+}
+
+section.about-us .container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* About us Block Text sec */
+
+section.about-us-text
+{
+    width: 486px;
+    min-height: 385px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    gap: 20px;
+}
+
+section.about-us-text .about-us-a-blue
+{
+    color: #2094E6;
+    font-family: var(--playfair);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+section.about-us-text .about-us-h2
+{
+    font-weight: 500;
+    line-height: 60px;
+    font-family: var(--playfair);
+    font-size: 45px ;
+}
+
+section.about-us-text .about-us-p
+{
+    font-family: var(--sans);
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/* About us Block photos sec */
+
+section.about-us .container section.waterfall-landscape figure
+{
+    
+    width: 667px ;
+    height: 546px ;
+    margin-right: 44px;
+ 
+}
+
+
+
+section.about-us .container section.waterfall-landscape figure .waterfall
+{
+  
+    width: 557px;
+    height: 405px;    
+}
+
+section.waterfall-landscape figure .landscape 
+{
+    height:263px ;
+    width:386px ;
+    position: absolute;
+    bottom: 0;
+    right: 0;    
+}

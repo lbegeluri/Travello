@@ -1,0 +1,38 @@
+:root
+{
+    --white: #ffffff;
+    --sans:"Work Sans", sans-serif;
+    --playfair:"Playfair Display" , sans-serif;
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+
+.container
+{
+    max-width: 1190px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.theme-button a
+{
+    text-decoration: none;
+    background-color: #2094E6;
+    padding: 8px 24px;
+    color: var(--white);
+    font-size: 16px;
+    font-family: var(--sans);
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+   
+}
+     

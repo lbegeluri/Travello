@@ -1,0 +1,471 @@
+:root {
+  --white: #ffffff;
+  --sans:"Work Sans", sans-serif;
+  --playfair:"Playfair Display" , sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.container {
+  max-width: 1190px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.theme-button a {
+  text-decoration: none;
+  background-color: #2094E6;
+  padding: 8px 24px;
+  color: var(--white);
+  font-size: 16px;
+  font-family: var(--sans);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+header.main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 2;
+  padding: 20px 120px;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+header.main-header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header.main-header .main-header-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header.main-header .main-header-right nav {
+  margin-right: 82px;
+}
+
+header.main-header .main-header-right nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  gap: 50px;
+}
+
+header.main-header .main-header-right nav ul li a:hover {
+  color: var(--white);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 200%;
+}
+
+.theme-button a:hover {
+  text-decoration: none;
+  background-color: black;
+  padding: 8px 24px;
+  color: var(--white);
+  font-size: 16px;
+  font-family: var(--sans);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+header.main-header .main-header-right nav ul li a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 500px;
+  font-size: 24px;
+  font-family: "Work Sans", sans-serif;
+}
+
+header.main-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+section.hero {
+  min-height: 660px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.hero::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+section.hero figure {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+section.hero figure img {
+  width: 100%;
+  height: 100%;
+}
+
+section.hero .hero-text {
+  max-width: 592px;
+  z-index: 2;
+}
+
+section.hero .hero-h1 {
+  font-size: 60px;
+  font-weight: 600px;
+  font-family: var(--playfair);
+  color: var(--white);
+  margin-bottom: 24px;
+  line-height: 66px;
+}
+
+section.hero .hero-p {
+  font-size: 18px;
+  color: var(--white);
+  font-family: var(--sans);
+  margin-bottom: 24px;
+  line-height: 27px;
+}
+
+header.main-header .logo a:hover {
+  opacity: 70%;
+}
+
+section.about-us {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+section.about-us .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* About us Block Text sec */
+section.about-us-text {
+  width: 486px;
+  min-height: 385px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 25px;
+  gap: 20px;
+}
+
+section.about-us-text .about-us-a-blue {
+  color: #2094E6;
+  font-family: var(--playfair);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+section.about-us-text .about-us-h2 {
+  font-weight: 500;
+  line-height: 60px;
+  font-family: var(--playfair);
+  font-size: 45px;
+}
+
+section.about-us-text .about-us-p {
+  font-family: var(--sans);
+  font-size: 18px;
+  line-height: 27px;
+}
+
+/* About us Block photos sec */
+section.about-us .container section.waterfall-landscape figure {
+  width: 667px;
+  height: 546px;
+  margin-right: 44px;
+}
+
+section.about-us .container section.waterfall-landscape figure .waterfall {
+  width: 557px;
+  height: 405px;
+}
+
+section.waterfall-landscape figure .landscape {
+  height: 263px;
+  width: 386px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+section.benefits div.container {
+  margin-bottom: 128px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.card {
+  width: 285px;
+  min-height: 233px;
+  -webkit-box-shadow: 0px 5px 20px -10px #333333;
+          box-shadow: 0px 5px 20px -10px #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+  padding: 44px 28px 30px 27px;
+}
+
+.benefits .container a {
+  text-decoration: none;
+}
+
+.card h2 {
+  font-family: var(--playfair);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #121212;
+}
+
+.card p {
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+section.benefits .container .full-guide:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.benefits .container .transport:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.benefits .container .easy-book:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+section.benefits .container .camp-fire:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media (max-width: 1024px) {
+  section.hero figure img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  header.main-header div.main-header-right nav {
+    display: none;
+  }
+  header.main-header div.container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
+  }
+  section.hero div.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 15px;
+  }
+  section.hero div.container div.hero-text {
+    text-align: center;
+  }
+  section.hero div.container div.hero-text .hero-h1 {
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  section.hero div.container div.hero-text .hero-p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+  /* About us block */
+  section.about-us .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section.about-us {
+    margin-top: 50px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 50px;
+  }
+  section.about-us .container section.about-us-text {
+    width: 100%;
+    min-height: 300px;
+    text-align: center;
+  }
+  section.about-us .container section.waterfall-landscape {
+    width: 100%;
+  }
+  section.about-us .container section.waterfall-landscape figure {
+    width: 100%;
+  }
+  section.about-us .container section.waterfall-landscape figure .waterfall {
+    height: 50%;
+    width: auto;
+    max-width: 600px;
+  }
+  section.about-us .container section.waterfall-landscape figure .waterfall img {
+    width: 100%;
+    height: auto;
+  }
+  section.about-us .container section.waterfall-landscape figure .landscape {
+    height: 50%;
+    width: auto;
+  }
+  section.about-us .container section.waterfall-landscape figure .landscape img {
+    width: 100%;
+    height: auto;
+  }
+  section.about-us .container .about-us-text .about-us-h2 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  section.about-us .container .about-us-text .about-us-p {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  /* third block */
+  section.benefits {
+    margin-top: 50px;
+  }
+  section.benefits div.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 50px;
+    margin-top: 0;
+  }
+  section.benefits .container .card {
+    width: 80%;
+    margin: 10px;
+    text-align: center;
+  }
+}
