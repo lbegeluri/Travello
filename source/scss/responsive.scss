@@ -129,7 +129,7 @@ section.about-us .container .about-us-text .about-us-p
     line-height: 15px;
 }
 
-/* third block */
+/* benefits block */
 
 section.benefits 
 {
@@ -145,6 +145,7 @@ section.benefits div.container
     align-items: center;
     padding: 0 50px;   
     margin-top:0; 
+    margin-bottom: 100px;
     
 }
 
@@ -156,6 +157,40 @@ section.benefits .container .card
 }
 
 
+// our services block
+
+// our services text 
+section.our-services .container
+{
+    padding: 0 50px;
+}
+
+section.our-services .container .our-services-text 
+{
+   
+}
 
 
+
+// our services cards
+section.our-services .container .our-services-cards
+{
+   flex-direction: column;
+      
+}
+
+section.our-services .container .our-services-cards .country-text
+{
+   
+}
+
+section.our-services .container .our-services-text .our-services-h2
+{
+    font-size: 18px;
+}
+
+section.our-services .container .our-services-text .our-services-p
+{
+    font-size: 15px;
+}
 }

@@ -1,0 +1,94 @@
+section.our-services .container
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+section.our-services .container .our-services-text
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   margin-bottom: 64px ;
+   
+   
+}
+
+section.our-services .container .our-services-text .our-services-p
+{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--blue);
+    font-family: var(--playfair);
+    line-height: 24px;
+}
+
+section.our-services .container .our-services-text .our-services-h2
+{
+    font-size: 45px;
+    font-weight: 500;
+    color: var(--black);
+    font-family: var(--playfair);
+    line-height: 60px;
+}
+
+section.our-services .container .our-services-cards
+{
+   display: flex;  
+   gap: 20px;
+   margin-bottom: 128px;
+}
+
+
+section.our-services .container .our-services-cards .country
+{ 
+    width: 387px;
+    height: 400px;
+}
+
+section.our-services .container .our-services-cards .country:before 
+{
+    
+   content: '';
+   position: absolute;
+   display: block;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(16, 99, 184, 0.5);
+   z-index: 1;
+}
+
+section.our-services .container .our-services-cards .country .country-text
+{
+   text-align: center;
+   position: absolute;
+   top: 140px;   
+   z-index: 2;
+}
+
+section.our-services .container .our-services-cards .country .country-text .country-text-h3
+{
+    font-family: var(--playfair);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--white);
+    margin-bottom: 15px;
+}
+
+section.our-services .container .our-services-cards .country .country-text .country-text-p
+{
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 47px;
+    font-weight: 400;
+}
