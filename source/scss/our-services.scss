@@ -1,9 +1,11 @@
+section.our-services
+{
+
+}
+
 section.our-services .container
 {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+
 }
 
 section.our-services .container .our-services-text
@@ -41,13 +43,23 @@ section.our-services .container .our-services-cards
    display: flex;  
    gap: 20px;
    margin-bottom: 128px;
+   
+   
 }
 
 
 section.our-services .container .our-services-cards .country
 { 
-    width: 387px;
+    max-width: 100%;
     height: 400px;
+    
+}
+
+section.our-services .container .our-services-cards .country figure img
+{ 
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
 
 section.our-services .container .our-services-cards .country:before 

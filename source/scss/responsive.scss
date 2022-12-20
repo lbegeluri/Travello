@@ -80,6 +80,12 @@ section.about-us .container section.about-us-text
     text-align: center;
 }
 
+section.about-us .container section.about-us-text .about-us-h2
+{
+    
+   font-size: 20px;
+}
+
 section.about-us .container section.waterfall-landscape
 {
     width: 100%;
@@ -151,7 +157,7 @@ section.benefits div.container
 
 section.benefits .container .card
 {
-    width: 80%;
+    width: 100%;
     margin: 10px;
     text-align: center;
 }
@@ -175,14 +181,40 @@ section.our-services .container .our-services-text
 // our services cards
 section.our-services .container .our-services-cards
 {
-   flex-direction: column;
-      
+   flex-direction: column;      
 }
 
-section.our-services .container .our-services-cards .country-text
+section.our-services .container .our-services-cards .country
 {
-   
+    height: 350px;
 }
+
+section.our-services .container .our-services-cards .country figure img
+{
+    height: 350px;
+}
+
+section.our-services .container .our-services-cards .country .country-text
+{
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    z-index: 2;
+    padding: 0 20px;
+}
+
+section.our-services .container .our-services-cards .country .country-text .country-text-p
+{
+    font-weight: 300;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+section.our-services .container .our-services-cards .country .country-text .country-text-h3
+{
+    font-size: 20px;
+}
+
 
 section.our-services .container .our-services-text .our-services-h2
 {
