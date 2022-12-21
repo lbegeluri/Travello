@@ -195,8 +195,8 @@ header.main-header .logo a:hover {
 }
 
 section.about-us {
-  margin-top: 60px;
-  margin-bottom: 100px;
+  margin-top: 0;
+  margin-bottom: 128px;
 }
 
 section.about-us .container {
@@ -220,16 +220,15 @@ section.about-us-text {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 25px;
-  gap: 20px;
 }
 
-section.about-us-text .about-us-a-blue {
+section.about-us-text .about-us-p-blue {
   color: #2094E6;
   font-family: var(--playfair);
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
-  text-decoration: none;
+  margin-bottom: 10px;
 }
 
 section.about-us-text .about-us-h2 {
@@ -237,6 +236,7 @@ section.about-us-text .about-us-h2 {
   line-height: 60px;
   font-family: var(--playfair);
   font-size: 45px;
+  margin-bottom: 20px;
 }
 
 section.about-us-text .about-us-p {
@@ -338,6 +338,10 @@ section.benefits .container .camp-fire:hover {
   transition: 1s;
 }
 
+section.our-services {
+  margin-bottom: 128px;
+}
+
 section.our-services .container .our-services-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -353,7 +357,7 @@ section.our-services .container .our-services-text {
       -ms-flex-align: center;
           align-items: center;
   gap: 10px;
-  margin-bottom: 64px;
+  margin-bottom: 100px;
 }
 
 section.our-services .container .our-services-text .our-services-p {
@@ -602,4 +606,141 @@ section.our-services .container .our-services-cards .country .country-text .coun
   section.our-services .container .our-services-text .our-services-p {
     font-size: 15px;
   }
+}
+section.reviews .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 114px;
+  margin-bottom: 128px;
+}
+section.reviews .container .reviews-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+section.reviews .container .reviews-text .reviews-text-p-blue {
+  font-family: var(--playfair);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--blue);
+  margin-bottom: 10px;
+}
+section.reviews .container .reviews-text .reviews-text-h3 {
+  font-family: var(--playfair);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  color: #121212;
+}
+section.reviews .container .reviews-text .reviews-text-p {
+  font-family: var(--sans);
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+section.reviews .container .reviews-text .reviews-text a.theme-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+section.about-us-airplane {
+  min-height: 525px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.about-us-airplane::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+section.about-us-airplane figure {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+section.about-us-airplane figure img {
+  width: 100%;
+  height: 100%;
+}
+
+section.about-us-airplane .about-us-airplane-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  max-width: 690px;
+  min-height: 269px;
+  z-index: 2;
+  padding: 0 30px;
+}
+
+section.about-us-airplane .about-us-airplane-p-blue {
+  font-family: var(--playfair);
+  color: var(--blue);
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+section.about-us-airplane .about-us-airplane-h3 {
+  font-size: 45px;
+  font-weight: 500;
+  font-family: var(--playfair);
+  color: var(--white);
+  margin-bottom: 29px;
+  line-height: 60px;
+}
+
+section.about-us-airplane .about-us-airplane-p {
+  font-size: 18px;
+  color: var(--white);
+  font-family: var(--sans);
+  margin-bottom: 30px;
+  line-height: 27px;
+  font-weight: 300;
 }

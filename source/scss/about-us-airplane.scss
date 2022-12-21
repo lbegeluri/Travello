@@ -1,0 +1,83 @@
+section.about-us-airplane
+{
+    min-height: 525px;
+    width: 100%;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+} 
+
+section.about-us-airplane::before 
+{
+    
+   content: '';
+   position: absolute;
+   display: block;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.1);
+   z-index: 1;
+}
+    
+
+
+section.about-us-airplane figure
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+section.about-us-airplane figure img
+{
+    width: 100%;
+    height: 100%;
+    
+}
+
+section.about-us-airplane .about-us-airplane-text
+{       
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 690px;
+    min-height: 269px;
+    z-index:  2;
+    padding: 0 30px;
+}
+
+section.about-us-airplane .about-us-airplane-p-blue
+{
+    font-family: var(--playfair);
+    color: var(--blue);
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+section.about-us-airplane .about-us-airplane-h3
+{
+    font-size: 45px;
+    font-weight: 500;
+    font-family: var(--playfair);
+    color: var(--white);
+    margin-bottom: 29px;
+    line-height: 60px;
+}
+
+section.about-us-airplane .about-us-airplane-p
+{
+    font-size: 18px;
+    color: var(--white);
+    font-family: var(--sans) ;
+    margin-bottom: 30px;
+    line-height: 27px;
+    font-weight: 300;
+}
+

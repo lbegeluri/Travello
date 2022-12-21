@@ -1,7 +1,7 @@
 section.about-us
 {
-    margin-top: 60px;   
-    margin-bottom: 100px; 
+    margin-top: 0;   
+    margin-bottom: 128px; 
     
 }
 
@@ -22,17 +22,18 @@ section.about-us-text
     display: flex;
     flex-direction: column;
     margin-top: 25px;
-    gap: 20px;
+    
 }
 
-section.about-us-text .about-us-a-blue
+section.about-us-text .about-us-p-blue
 {
     color: #2094E6;
     font-family: var(--playfair);
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
-    text-decoration: none;
+    margin-bottom: 10px;
+    
 }
 
 section.about-us-text .about-us-h2
@@ -41,6 +42,7 @@ section.about-us-text .about-us-h2
     line-height: 60px;
     font-family: var(--playfair);
     font-size: 45px ;
+    margin-bottom: 20px;
 }
 
 section.about-us-text .about-us-p
