@@ -1,4 +1,7 @@
-section.reviews .container
+section.reviews 
+{
+padding: 0 20px;
+    .container
 {
     display: flex;
     justify-content: center;
@@ -50,4 +53,5 @@ section.reviews .container
     }
 
 
+}
 }

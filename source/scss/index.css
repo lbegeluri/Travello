@@ -134,6 +134,7 @@ header.main-header {
 }
 
 section.hero {
+  padding: 0 20px;
   min-height: 660px;
   width: 100%;
   display: -webkit-box;
@@ -199,6 +200,7 @@ header.main-header .logo a:hover {
 section.about-us {
   margin-top: 0;
   margin-bottom: 128px;
+  padding: 0 20px;
 }
 
 section.about-us .container {
@@ -266,6 +268,10 @@ section.waterfall-landscape figure .landscape {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+section.benefits {
+  padding: 0 20px;
 }
 
 section.benefits div.container {
@@ -343,6 +349,7 @@ section.benefits .container .camp-fire:hover {
 
 section.our-services {
   margin-bottom: 128px;
+  padding: 0 20px;
 }
 
 section.our-services .container .our-services-text {
@@ -610,6 +617,9 @@ section.our-services .container .our-services-cards .country .country-text .coun
     font-size: 15px;
   }
 }
+section.reviews {
+  padding: 0 20px;
+}
 section.reviews .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -677,6 +687,7 @@ section.about-us-airplane {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 0 20px;
 }
 
 section.about-us-airplane::before {
@@ -753,6 +764,7 @@ footer.footer-block {
   width: 100%;
   min-height: 451px;
   padding-top: 64px;
+  padding: 0 20px;
 }
 footer.footer-block .container {
   display: -webkit-box;
